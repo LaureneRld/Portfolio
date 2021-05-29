@@ -7,12 +7,12 @@ body{
     position: absolute;
   }
 
+  
 footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px;
-    justify-content: center;
+    text-align: center;
     background-color: #D1D3C0;
     color: #F9FBE9;
 }
@@ -60,7 +60,7 @@ h4{
 .group-img{
     margin-top: 1%;
     margin-right: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     text-align: end;
 }
 
@@ -108,10 +108,15 @@ a:hover {
     body{
         background-image: none;
     }
+
+    footer{
+        font-size: 12px;
+    }
     .group-img {
         display: block;
         margin-right: 0;
         text-align: center;
+        margin-bottom: 20%;
     }
     .image-detail{
         width:90%;
@@ -127,11 +132,16 @@ a:hover {
     h3 {
         font-size: 25px;
         margin-left: 8%;
-        margin-top: 15%;
+        margin-top: 10%;
 
     }
     h4{
         font-size: 20px;
+    }
+
+    p{
+        margin-top: -5%;
+
     }
     a{
         font-size: 12px;
