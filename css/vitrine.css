@@ -169,6 +169,14 @@ h2{
 
 @media screen and (min-width: 200px) and (max-width: 640px){
 
+body{
+    font-family: Avenir, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9FBE9;
+    min-height: 100%;
+    position: absolute;
+  }
 
 
 .logo{
@@ -226,6 +234,7 @@ h2{
 .category{
     width: 100%;
     margin-bottom: 20%;
+    display: flex;
 }
 
 .contain img {
