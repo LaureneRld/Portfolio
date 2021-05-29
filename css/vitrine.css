@@ -169,49 +169,78 @@ h2{
 
 @media screen and (min-width: 200px) and (max-width: 640px){
 
-    body{
-        background-image: url("../images/fond17.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-    }
 
-    header{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
 
-    h3 {
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 15px;
-        margin: 8% 0%;
-    }
+.logo{
+    width: 90px;
+    margin-top: 10%;
+    margin-bottom: 2%;
 
-    .contain {
-        margin-top: 25px;
-        justify-content: center;
-        margin-left: 0;
-    }
+}
 
-    .contain img{
-        margin: 2px;
-    }
+header{
+    width: 100%;
+    text-align: center;
+    position: initial;
+    margin-bottom: 10%;
 
-    ul{
-        display: flex;
-        text-decoration: none;
-        list-style: none;
-        justify-content: center;
-        padding: 3% 0% 10% 0%;
-    }
+}
 
-    ul a{
-        color: #FFF;
-        text-decoration: #FFF wavy underline;
-        font-family: 'Avenir', sans-serif;
-        font-weight: bold;
-        list-style: none;
-        padding: 0% 8%;
-    }
+.menu{
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 8%;
+
+}
+
+.menu p {
+    margin-bottom: -1%;
+}
+
+.menu a{
+    text-decoration: #2F3123 wavy underline;
+    color: #2F3123;   
+ 
+}
+
+.menu a:hover{
+    color: #F49269;
+    text-decoration: #F49269 wavy underline;
+}
+
+
+h1{
+    color: #2F3123;
+    font-family: 'Krona one', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+h2{
+    color: #2F3123;
+    font-family: 'DM sans';
+    font-size: 15px;
+    margin-top: -3%;
+}
+
+.category{
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.contain img {
+    width:150px;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.container {
+    position: relative;
+    margin: 10px;
+
+}
+
+
+  
 }
